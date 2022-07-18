@@ -1,0 +1,142 @@
+.alert {
+    font-size: 20px;
+    font-weight: 400;
+}
+.compare-form {
+    display:none;
+}
+
+#header-category .wrapper-current-category .ax-catimg-thumb {
+    width:100%;   
+}
+
+.instagram-media .instagram-media-rendered {
+    min-width:360px !important;
+}
+
+.alert {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+    border-radius:20px;
+}
+
+.alert-warning {
+    background-color: #FFE3F1;
+    border-color: #FFE3F1;
+    border-radius:20px;
+}
+
+.alert ul li, .alert ol li {
+    list-style-type:none !important;
+    font-weight:600 !important;
+}
+
+.alert ul, .alert ol {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.alert > p {
+    display:none !important;
+}
+
+.alert .lnk {
+    display:none !important;
+}
+
+.alert-danger {
+    background-color: #FFE3F1 !important;
+    border-color: #FFE3F1 !important;
+}
+
+#tunnel-message p {
+    background: #FDAFD2;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 0;
+}
+body.step_summary #tunnel-message {
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+body.step_summary #tunnel-message {
+    text-align: center;
+    margin: -25px 0 25px;
+    color: #262A4E;
+}
+
+#search_block_top #searchbox input {
+    height: 40px !important;
+}
+
+.ac_results li:hover, .ac_results li.ac_over {
+    background: #FFE3F1;
+    font-weight:600 !important;
+    color: #fff !important;
+}
+
+.ac_results li {
+    color: #000 !important;
+    font-size: 13px;
+    line-height: 25px;
+    padding: 10px 5px;
+    cursor:pointer;
+}
+.ac_results li:not(last-child) {
+    border-bottom: 1px solid #efeeee !important;
+}
+.ac_results {
+    max-width:95% !important;
+}
+
+#mailalert_link {
+    white-space: normal;
+}
+.bg-warning {
+    background-color: #FFE3F1;
+    padding: 8px 10px;
+    text-align: center;
+}
+#short_description_content img {
+    min-width:80px;   
+}
+
+#avis-clients {
+ display:none;   
+}
+
+#short_description_block, #short_description_block * {
+    color: #000 !important;
+    font-size:16px !important;
+}
+
+#detail-produit *, .info-product p {
+    color: #000 !important;
+}
+
+#breadcrumb .breadcrumb li {
+    font-size:14px;
+}
+
+#product #reassurance, #index #reassurance {
+    display:none;   
+}
+
+#block_top_menu > ul > li a {
+    font-size:14px;
+}
+
+@media(max-width:600px;) {
+     .order_carrier_logo {
+        max-width:100px;   
+    }   
+}
+/* Responsive  */
+@media(max-width: 425px) {
+    #product_list li.ajax_block_product {
+        width:100%;
+    }
+
+}
